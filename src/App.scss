@@ -1,5 +1,20 @@
-.App {
+@import "./components/scss/contact";
+@import "./components/scss/home";
+@import "./components/scss/navigation";
+@import "./components/scss/service";
+@import "./components/scss/profile";
+@import "./components/scss/footer";
+.App,
+.contact,
+.service,
+.profile {
+  background-color: #66686d;
+}
+
+.App,
+h1 {
   text-align: center;
+  color: #5ba3dd;
 }
 
 .App-logo {
@@ -35,4 +50,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home {
+  min-height: 100vh;
+  background-color: #5ba3dd;
 }

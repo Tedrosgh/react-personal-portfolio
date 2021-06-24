@@ -1,0 +1,59 @@
+.page {
+  min-height: 100vh;
+  margin: 1rem;
+  text-align: center;
+}
+#service {
+  margin-top: 1rem;
+}
+.service__div {
+  margin-top: 1rem;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+.service__box {
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.service__box span {
+  font-size: 8rem;
+}
+.css {
+  color: white;
+  background-color: blue;
+}
+.html {
+  color: white;
+  background-color: orange;
+}
+.js {
+  color: yellow;
+  background-color: black;
+}
+.python {
+  color: yellow;
+  background-color: black;
+}
+.links {
+  border: 0.1rem solid #5ba3dd;
+  padding: 3rem;
+}
+.links:hover {
+  background-color: yellowgreen;
+}
+.request {
+  font-size: 2rem;
+}
+.block {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #5ba3dd;
+  background-color: yellowgreen;
+  width: calc(10rem+30%);
+}

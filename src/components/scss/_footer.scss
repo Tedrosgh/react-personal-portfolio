@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  border-bottom: 2rem solid #66686d;
+  margin-top: 0.5rem;
+}
+.footer li {
+  list-style: none;
+}
+.footer_links {
+  display: flex;
+  gap: 2rem;
+}
+.facebook,
+.linkedin {
+  color: blue;
+}
+.footer_right {
+  margin-right: 2rem;
+}
